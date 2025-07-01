@@ -1,10 +1,10 @@
 # HeckPed
 
-The Hack Pad journey
+The Hack Pad journey. Make sure you read the entire README and all its notes, it's all chronological (it's like a Journalplzreadme.md)
 
 ### BOM
 
-* Two capacitors of type 0.1uf (I will be purchasing this, no biggie)
+* Two capacitors of type 0.1uf (I will be purchasing this, no biggie), it's coming in this set: https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-Assortment-Kit/dp/B0C1VBXCQM?sr=8-2
 * Four Switches of type Cherry Red 45cn
 * Four Keycaps (i dont care which type as long as they are White/Black and semi low profile [not chonky])
 * Two LED Diodes
@@ -35,3 +35,10 @@ Here's the complete part:
 ![It ain't horrible yo](image-4.png)
 
 There is also a production folder with Gerber and drill files, CAD case designs (top and bottom separated, no CADOUT inside production for PCB) and firmware customized to my use case.
+
+## VERY IMPORTANT NOTE 
+Logan made me put this here
+
+I will be drilling the top plate into the bottom plate as I've had issues with wiggling in the past. Drilling will be way more stable.
+
+I will also be elevating the XIAO slightly so it fits with the keyboard switch there.
