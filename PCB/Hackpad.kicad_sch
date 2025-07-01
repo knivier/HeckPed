@@ -1639,6 +1639,18 @@
 		(uuid "3ea15ab0-3285-49fc-85d0-e8f2da83ad14")
 	)
 	(junction
+		(at 139.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bea135-3435-40ac-bb5b-0f19f9d1bf18")
+	)
+	(junction
+		(at 115.57 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9002cd69-7613-465b-8351-47667f693265")
+	)
+	(junction
 		(at 139.7 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,16 +1724,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 139.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a23ae5-5107-4543-813d-0a8581aef467")
-	)
-	(wire
-		(pts
 			(xy 69.85 130.81) (xy 69.85 137.16)
 		)
 		(stroke
@@ -1782,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 139.7 59.69)
+			(xy 139.7 50.8) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1849,6 +1851,26 @@
 			(type default)
 		)
 		(uuid "8cdd3206-2978-482c-8140-0ee7378da2c3")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97819cb8-a8db-4326-bb1e-2ceb928c1654")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f4dc4a-eb63-4886-9c01-c9e1a9feca8f")
 	)
 	(wire
 		(pts
@@ -1932,23 +1954,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 111.76 50.8)
+			(xy 109.22 50.8) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1ac766d-977b-417b-bf0c-253e5121b759")
-	)
-	(wire
-		(pts
-			(xy 119.38 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d28a8f-507b-4cf9-b062-2f2ace6835c0")
 	)
 	(wire
 		(pts
@@ -2308,6 +2320,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 115.57 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b78992-a9b2-4de8-8f25-b1608e81641b")
+		(property "Reference" "#PWR07"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b539bba-405b-4bc8-b43a-a98ddb1b72a1")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/cf02a346-a8bc-4000-87af-25e97e7e97c6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 139.7 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2432,6 +2510,73 @@
 			(project ""
 				(path "/cf02a346-a8bc-4000-87af-25e97e7e97c6"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add8ae60-f699-4798-bf47-3cb257e04695")
+		(property "Reference" "#PWR06"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb1ff09d-cc2f-4dc5-8ae8-815c4c627861")
+		)
+		(instances
+			(project ""
+				(path "/cf02a346-a8bc-4000-87af-25e97e7e97c6"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2727,7 +2872,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 139.7 55.88 180)
+		(at 142.24 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,25 +2881,23 @@
 		(fields_autoplaced yes)
 		(uuid "e6d2a187-526b-412b-8c5c-8b5578519a99")
 		(property "Reference" "C2"
-			(at 142.24 54.6035 0)
+			(at 142.2336 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "C_Small"
-			(at 142.24 57.1435 0)
+			(at 142.2336 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:DX_5R5VxxxxU_D11.5mm_P5.00mm"
-			(at 139.7 55.88 0)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 55.88 0)
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2915,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 55.88 0)
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2930,7 @@
 			(uuid "d0f589ed-6943-4165-ac4d-5fa0cc443921")
 		)
 		(instances
-			(project ""
+			(project "Hackpad"
 				(path "/cf02a346-a8bc-4000-87af-25e97e7e97c6"
 					(reference "C2")
 					(unit 1)
@@ -2797,7 +2940,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 50.8 270)
+		(at 115.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2806,23 +2949,25 @@
 		(fields_autoplaced yes)
 		(uuid "e7040f1f-be43-4586-b946-9655aa8db851")
 		(property "Reference" "C1"
-			(at 115.57 43.18 90)
+			(at 119.38 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 115.57 45.72 90)
+			(at 119.38 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:DX_5R5HxxxxU_D11.5mm_P10.00mm"
-			(at 111.76 51.7652 0)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 116.5352 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 50.8 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2985,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 50.8 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3000,7 @@
 			(uuid "a9a25a6f-a361-4cd8-a786-ef12d0e8a539")
 		)
 		(instances
-			(project ""
+			(project "Hackpad"
 				(path "/cf02a346-a8bc-4000-87af-25e97e7e97c6"
 					(reference "C1")
 					(unit 1)
