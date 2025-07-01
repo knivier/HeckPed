@@ -4,7 +4,7 @@ The Hack Pad journey
 
 ### BOM
 
-* Two capacitors of type 0.1uf
+* Two capacitors of type 0.1uf (I will be purchasing this, no biggie)
 * Four Switches of type Cherry Red 45cn
 * Four Keycaps (i dont care which type as long as they are White/Black and semi low profile [not chonky])
 * Two LED Diodes
