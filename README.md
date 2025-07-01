@@ -42,3 +42,7 @@ Logan made me put this here
 I will be drilling the top plate into the bottom plate as I've had issues with wiggling in the past. Drilling will be way more stable.
 
 I will also be elevating the XIAO slightly so it fits with the keyboard switch there.
+
+![Front PCB](image-5.png)
+
+![Back PCB](image-6.png)
